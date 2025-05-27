@@ -9,7 +9,7 @@ function CartCheckout() {
     const [list, setList] = useState([]);
 
     useEffect(() => {
-        const current = plants.filter((plant)=> basket.includes(plant.id));
+        const current = plants.filter((plant)=> basket.find(item => item.id === plant.id));
         setList(current);
     }, [basket]);
 
