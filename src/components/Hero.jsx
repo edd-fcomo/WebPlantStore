@@ -5,7 +5,7 @@ function Hero() {
                 <h1 className="font-semibold text-3xl text-center">Welcome to Paradise Nursery</h1>
                 <p className="text-center">Where Green Meets Serenity</p>
                 <hr className="w-24" />
-                <a title="Shop" role="button" href="/shop.html" className="bg-green-600 hover:bg-green-700 rounded shadow px-4 py-2">
+                <a title="Shop" role="button" href="/WebPlantStore/shop.html" className="bg-green-600 hover:bg-green-700 rounded shadow px-4 py-2">
                     Get Started
                 </a>
             </section>
